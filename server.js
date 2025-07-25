@@ -18,7 +18,7 @@ connectToDb()
 
 const app = express()
 app.use(cors({
-    origin: "https://aata-rms.vercel.app/login",
+    origin: "https://aata-rms.vercel.app",
     credentials: true
 }))
 app.use(express.json())
